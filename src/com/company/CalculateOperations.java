@@ -3,7 +3,7 @@ package com.company;
 public class CalculateOperations {
 
     /**
-     * Burada sürekli code içerinde square ya da cube değişikliği yağmamak için cube ve square dan nesne oluşturmadık.
+     * Burada sürekli code içerinde square ya da cube değişikliği yapmamak için cube ve square dan nesne oluşturmadık.
      * Bunu dinamik hale getirmek için interface nesnesi oluşturduk.
      * Cube ve Square sınıflarıda interface'i implements ediyor.
      */
