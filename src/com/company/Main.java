@@ -13,7 +13,7 @@ public class Main {
          * Bu durumda tight coupling olacaktı.(istenmeyen durum)
          * Interface kullanarak bu işlemi main metot ile yaptık ve artık bizim alan hesabımız dinamik durumda.
          * Main metot içerisinde cube ya da square  gelmesi fark etmeden işlem yapılabiliyoruz.
-         * Bu şekilde light coupling yapısını kullandık.
+         * Bu şekilde loose coupling yapısını kullandık.
          */
         Scanner scanner = new Scanner(System.in);
         System.out.println("Birim uzunlugu giriniz..");
